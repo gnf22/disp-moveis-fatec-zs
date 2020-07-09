@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    android:columnCount="4"
+    android:rowCount="3" >
+
+
+    <TextView
+        android:id="@+id/idAluno"
+        android:layout_width="42dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="ID" />
+
+    <TextView
+        android:id="@+id/nomeAluno"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="NOME" />
+
+    <TextView
+        android:id="@+id/sexoAluno"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="SEXO" />
+
+    <TextView
+        android:id="@+id/idadeAluno"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="3"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="IDADE" />
+
+</GridLayout>

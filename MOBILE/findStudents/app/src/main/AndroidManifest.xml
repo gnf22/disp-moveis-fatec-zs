@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.findStudents">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.findStudents.views.acesso.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.findStudents.views.aluno.InsereAlunos" >
+        </activity>
+        <activity android:name="com.example.findStudents.views.aluno.ConsultaAlunos">
+        </activity>
+        <activity android:name="com.example.findStudents.views.aluno.AlterarAlunos">
+        </activity>
+        <activity android:name="com.example.findStudents.views.instituicao.InsereInstituicao">
+        </activity>
+        <activity android:name="com.example.findStudents.views.instituicao.ConsultaInstituicao">
+        </activity>
+        <activity android:name="com.example.findStudents.views.instituicao.AlterarInstituicao">
+        </activity>
+        <activity android:name="com.example.findStudents.views.alunoinstituicao.InsereAlunoInstituicao">
+        </activity>
+        <activity android:name="com.example.findStudents.views.alunoinstituicao.ConsultaAlunoInstituicao">
+        </activity>
+        <activity android:name="com.example.findStudents.views.alunoinstituicao.AlterarAlunoInstituicao">
+        </activity>
+        <activity android:name="com.example.findStudents.views.aluno.BuscarAlunos">
+        </activity>
+        <activity android:name="com.example.findStudents.views.aluno.ConsultaAlunosParametro">
+        </activity>
+        <activity android:name=".views.usuario.CadastroUsuario">
+        </activity>
+        <activity android:name=".views.instituicao.BuscarInstituicao">
+        </activity>
+        <activity android:name=".views.instituicao.ConsultaInstituicaoParametro">
+        </activity>
+        <activity android:name=".views.alunoinstituicao.BuscarAlunoInstituicao">
+        </activity>
+        <activity android:name=".views.alunoinstituicao.ConsultaAlunoInstituicaoParametro">
+        </activity>
+        <activity android:name=".views.acesso.MainMenu">
+        </activity>
+        <activity android:name=".views.aluno.MainAluno">
+        </activity>
+        <activity android:name=".views.instituicao.MainInstituicao">
+        </activity>
+        <activity android:name=".views.alunoinstituicao.MainAlunoInstituicao">
+        </activity>
+        <activity android:name=".views.usuario.MainUsuario">
+        </activity>
+        <activity android:name=".views.usuario.InsereUsuario">
+        </activity>
+        <activity android:name=".views.usuario.ConsultaUsuario">
+        </activity>
+        <activity android:name=".views.usuario.AlterarUsuario">
+        </activity>
+        <activity android:name=".views.usuario.BuscarUsuario">
+        </activity>
+        <activity android:name=".views.usuario.ConsultaUsuarioParametro">
+        </activity>
+    </application>
+
+</manifest>

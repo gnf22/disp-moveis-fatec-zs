@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FindStudents</string>
+    <string-array name="clean_array">
+    </string-array>
+</resources>
